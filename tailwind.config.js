@@ -34,7 +34,8 @@ module.exports = {
         "xl": "1200px",
         "2xl": "1440px",
         "3xl": "1536px",
-      }
+      },
+      backgroundImage: {}
     },
   },
   plugins: [],
