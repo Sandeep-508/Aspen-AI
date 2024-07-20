@@ -7,4 +7,8 @@
   .container {
     @apply max-w-[1188px] px-6 mx-auto
   }
+
+  .BtnProp {
+    @apply font-lato font-bold text-lg text-dark-green py-[14px] px-[28px] h-[55px] border border-dark-green rounded-[99px] text-nowrap flex items-center justify-center hover:bg-dark-green hover:text-white ease-in-out duration-300
+  }
 }
