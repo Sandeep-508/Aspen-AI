@@ -1,4 +1,4 @@
-import { cable, call, callCapa, callhandlingplay1, calltraced9, callTracking6, carbonCost, clipboardHeadPhone5, fooDelivery5, growthPic, homeServices, infiniteImg, insurance5, mediaclOffice4, messageImg4, messages, personPic, pharmacy, realEstate, setting8, tracedImg, travel, utlities, weighing7, weighingCall } from "../assets/images";
+import { cable, call, callCapa, callhandlingplay1, calltraced9, callTracking6, carbonCost, clipboardHeadPhone5, fooDelivery5, growthPic, homeServices, infiniteImg, insurance5, mediaclOffice4, messageImg4, messages, personPic, pharmacy, realEstate, scsColImg, scsColImg2, scsColImg3, setting8, tracedImg, travel, utlities, weighing7, weighingCall } from "../assets/images";
 
 export const heroCol = [
     { img: carbonCost, text: "Voice and text-ready" },
@@ -38,4 +38,10 @@ export const gameChanger = [
     { priText: "82%", secText: "Savings" },
     { priText: "24/7", secText: "Availability" },
     { img: infiniteImg, secText: "scalability" }
+]
+
+export const stories = [
+    { img: scsColImg, name: "Sophia Moore", occup: "CEO at Webflow Agency", about: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident" },
+    { img: scsColImg2, name: "Henny Coeur", occup: "CEO at Webflow Agency", about: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident" },
+    { img: scsColImg3, name: "Genii Leviesa", occup: "CEO at Webflow Agency", about: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident" }
 ]

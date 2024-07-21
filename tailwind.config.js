@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         lato: ["Lato", "sans-serif"],
-        poppins: ["Poppins", "sans-serif"]
+        poppins: ["Poppins", "sans-serif"],
+        lexend: ["Lexend", "sans-serif"]
       },
       fontSize: {
         "xs": ["12px", "19px"],

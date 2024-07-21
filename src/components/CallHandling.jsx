@@ -3,7 +3,7 @@ import { callHandling } from "./content"
 const CallHandling = () => {
     return (
         <section>
-            <div className="container-xl bg-skin-color py-[100px]">
+            <div className="container-xl bg-skin-color py-[100px] rounded-[32px]">
                 <div className="container">
                     <div className="flex items-center justify-center">
                         <p className="max-w-[854px] text-center font-semibold font-poppins lg:text-4xl text-3xl text-black-300 pb-[50px]">Listen to how <span className="bg-[#EFEFEF] px-2 rounded-[8px]">humanlike</span> call handling works - the Aspen AI way</p>

@@ -28,7 +28,9 @@ import homeServices from './homeServices.png'
 import pharmacy from './pharmacy.png'
 import heroBgImg from './heroBgImg.png'
 import infiniteImg from './infiniteImg.png'
-
+import scsColImg from './scsColImg.png'
+import scsColImg2 from './scsColImg2.png'
+import scsColImg3 from './scsColImg3.png'
 export {
     ApsenLogo,
     call,
@@ -59,5 +61,8 @@ export {
     homeServices,
     pharmacy,
     heroBgImg,
-    infiniteImg
+    infiniteImg,
+    scsColImg,
+    scsColImg2,
+    scsColImg3
 }

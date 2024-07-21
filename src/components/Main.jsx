@@ -5,6 +5,9 @@ import CallHandling from './CallHandling'
 import Compliant from './Compliant'
 import WhyChooseUs from './WhyChooseUs'
 import GameChanger from './GameChanger'
+import SuccessStories from './SuccessStories'
+import YourSolution from './YourSolution'
+import Savings from './Savings'
 
 const Main = () => {
   return (
@@ -15,6 +18,9 @@ const Main = () => {
       <CallHandling />
       <WhyChooseUs />
       <GameChanger />
+      <SuccessStories />
+      <YourSolution />
+      <Savings />
     </>
   )
 }
