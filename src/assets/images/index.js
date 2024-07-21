@@ -31,6 +31,9 @@ import infiniteImg from './infiniteImg.png'
 import scsColImg from './scsColImg.png'
 import scsColImg2 from './scsColImg2.png'
 import scsColImg3 from './scsColImg3.png'
+import upArrow from './upArrow.png'
+import DownArrow from './DownArrow.png'
+
 export {
     ApsenLogo,
     call,
@@ -64,5 +67,7 @@ export {
     infiniteImg,
     scsColImg,
     scsColImg2,
-    scsColImg3
+    scsColImg3,
+    upArrow,
+    DownArrow
 }

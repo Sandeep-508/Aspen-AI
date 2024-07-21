@@ -8,6 +8,8 @@ import GameChanger from './GameChanger'
 import SuccessStories from './SuccessStories'
 import YourSolution from './YourSolution'
 import Savings from './Savings'
+import Accordion from './AccordionTailwind'
+
 
 const Main = () => {
   return (
@@ -21,6 +23,7 @@ const Main = () => {
       <SuccessStories />
       <YourSolution />
       <Savings />
+      <Accordion />
     </>
   )
 }
