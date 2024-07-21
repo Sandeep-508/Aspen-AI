@@ -27,6 +27,7 @@ import travel from './travel.png'
 import homeServices from './homeServices.png'
 import pharmacy from './pharmacy.png'
 import heroBgImg from './heroBgImg.png'
+import infiniteImg from './infiniteImg.png'
 
 export {
     ApsenLogo,
@@ -46,7 +47,6 @@ export {
     effeciencySecImg,
     compliantSecImg,
     whyChooseUSImg,
-
     callhandlingplay1,
     weighingCall,
     mediaclOffice4,
@@ -58,5 +58,6 @@ export {
     travel,
     homeServices,
     pharmacy,
-    heroBgImg
+    heroBgImg,
+    infiniteImg
 }

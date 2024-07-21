@@ -4,6 +4,7 @@ import Effeciency from './Effeciency'
 import CallHandling from './CallHandling'
 import Compliant from './Compliant'
 import WhyChooseUs from './WhyChooseUs'
+import GameChanger from './GameChanger'
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       <Effeciency />
       <CallHandling />
       <WhyChooseUs />
+      <GameChanger />
     </>
   )
 }

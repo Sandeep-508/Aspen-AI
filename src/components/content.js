@@ -1,4 +1,4 @@
-import { cable, call, callCapa, callhandlingplay1, calltraced9, callTracking6, carbonCost, clipboardHeadPhone5, fooDelivery5, growthPic, homeServices, insurance5, mediaclOffice4, messageImg4, messages, personPic, pharmacy, realEstate, setting8, tracedImg, travel, utlities, weighing7, weighingCall } from "../assets/images";
+import { cable, call, callCapa, callhandlingplay1, calltraced9, callTracking6, carbonCost, clipboardHeadPhone5, fooDelivery5, growthPic, homeServices, infiniteImg, insurance5, mediaclOffice4, messageImg4, messages, personPic, pharmacy, realEstate, setting8, tracedImg, travel, utlities, weighing7, weighingCall } from "../assets/images";
 
 export const heroCol = [
     { img: carbonCost, text: "Voice and text-ready" },
@@ -32,4 +32,10 @@ export const callHandling = [
     { img: travel, text: "Travel" },
     { img: homeServices, text: "Home Services" },
     { img: pharmacy, text: "Pharmacy" }
+]
+
+export const gameChanger = [
+    { priText: "82%", secText: "Savings" },
+    { priText: "24/7", secText: "Availability" },
+    { img: infiniteImg, secText: "scalability" }
 ]
