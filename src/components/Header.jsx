@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { ApsenLogo, heroBgImg } from '../assets/images'
-import { Link } from 'react-router-dom'
 import { heroCol } from './content'
 
 const Header = () => {

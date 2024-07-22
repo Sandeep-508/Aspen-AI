@@ -2,7 +2,7 @@ import { stories } from "./content"
 
 const SuccessStories = () => {
     return (
-        <section className="lg:py-[140px] md:py-[100px] pt-[90px]">
+        <section className="lg:pt-[140px] md:pt-[100px] pt-[90px]">
             <div className="container">
                 <p className="container text-center md:pb-6 pb-4 font-lato sm:text-4xl text-3xl text-black-300 font-semibold">Success stories</p>
                 <div className="row items-center justify-center">
