@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import DownArrow from '../assets/images/DownArrow.png';
-import UpArrow from '../assets/images/upArrow.png';
+import DownArrow from '../assets/images/DownArrow.webp';
+import UpArrow from '../assets/images/upArrow.webp';
 
 function AccordionItem({ title, content, isOpen, toggleAccordion }) {
     return (
-        <div className={`border border-gray-300 ${isOpen ? "rounded-[24px] bg-[#023E4808]" : "rounded-[100px] bg-white"} mb-2 max-w-[938px] mx-auto`}>
+        <div className={`border border-gray-300 ${isOpen ? "rounded-[24px] bg-[#023E4808]" : "md:rounded-[100px] rounded-[16px] bg-white"} mb-[18px] max-w-[938px] mx-auto`}>
             <div
                 className={`px-6 pt-4 ${isOpen ? "pb-[12px]" : "pb-4"}  cursor-pointer flex justify-between items-center text-gray`}
                 onClick={toggleAccordion}
             >
-                <p className='font-lato font-medium text-xl text-black-300'>{title}</p>
+                <p className='font-lato font-medium sm:text-xl text-base text-black-300'>{title}</p>
                 {isOpen ? (
                     <img src={UpArrow} alt="Up Arrow" className="w-4 h-[9px]" />
                 ) : (
@@ -18,7 +18,7 @@ function AccordionItem({ title, content, isOpen, toggleAccordion }) {
             </div>
             {isOpen && (
                 <div
-                    className="ps-6 pb-4 lg:pe-[133px] pe-4 font-lato font-normal text-base opacity-70 text-black-300"
+                    className="ps-6 pb-4 lg:pe-[133px] pe-4 font-lato font-normal sm:text-base text-sm opacity-70 text-black-300"
                     dangerouslySetInnerHTML={{ __html: content }}
                 />
             )}
@@ -49,7 +49,7 @@ function Accordion() {
             isOpen: false,
         },
         {
-            title: 'Our firm isnt that large.Can this be adapted to my size?',
+            title: 'How is this better than a human?',
             content: `
         <p>While this is in some ways a sensitive question, Aspen AI is able to outperform many of the routine tasks that once could only be accomplished by people. Examples of Aspen AI's Performance Superiority:</p>
         <ul style="list-style-type: disc; padding-left: 20px;">
@@ -87,8 +87,8 @@ function Accordion() {
     };
 
     return (
-        <div className='py-[140px]'>
-            <p className=" font-poppins pb-[58px] font-semibold md:text-4xl text-3xl text-center">Frequently Asked <span className="bg-[#EFEFEF] px-2 rounded-[8px]">Questions</span></p>
+        <div className='lg:py-[140px] md:py-[100px] py-[90px] px-3' id='faqs'>
+            <p className=" font-poppins lg:pb-[58px] md:pb-[40px] pb-6 font-semibold md:text-4xl text-3xl text-center">Frequently Asked <span className="bg-[#EFEFEF] px-2 rounded-[8px]">Questions</span></p>
             {accordionItems.map((item, index) => (
                 <AccordionItem
                     key={index}

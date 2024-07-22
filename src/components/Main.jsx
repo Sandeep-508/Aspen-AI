@@ -9,6 +9,7 @@ import SuccessStories from './SuccessStories'
 import YourSolution from './YourSolution'
 import Savings from './Savings'
 import Accordion from './AccordionTailwind'
+import ScrollToTop from './ScrollToTop'
 
 
 const Main = () => {
@@ -21,9 +22,10 @@ const Main = () => {
       <WhyChooseUs />
       <GameChanger />
       <SuccessStories />
-      <YourSolution />
       <Savings />
+      <YourSolution />
       <Accordion />
+      <ScrollToTop />
     </>
   )
 }
