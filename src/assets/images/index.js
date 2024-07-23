@@ -1,6 +1,6 @@
 import ApsenLogo from './apsenLogo.webp'
 import call from './call.webp'
-import carbonCost from './carbon_cost.webp'
+import carbonCost from './carbon_dust_2.webp'
 import growthPic from './growth_pic.webp'
 import personPic from './peroson_pic.webp'
 import callCapa from './call.webp'
