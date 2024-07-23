@@ -13,7 +13,7 @@ input[type=number] {
 }
 
 select {
-    background-image: url('./assets/images/arrowDownForm.png');
+    background-image: url('./assets/images/arrowDownForm.webp');
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 50%;
