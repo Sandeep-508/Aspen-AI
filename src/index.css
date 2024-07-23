@@ -24,4 +24,8 @@
   .container-xl {
     @apply max-w-[1320px] mx-auto px-3
   }
+
+  .scrollTopProp {
+    @apply 4xl:!hidden
+  }
 }

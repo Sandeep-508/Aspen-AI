@@ -39,47 +39,9 @@ import facebook from './facebook.webp'
 import instagram from './instagram.webp'
 import linkedin from './linkedin.webp'
 import footerBottomText from './footerBottomText.webp'
+import contactUs from './contactUs.png'
+import caution from './caution.png'
 
 export {
-    ApsenLogo,
-    call,
-    carbonCost,
-    growthPic,
-    personPic,
-    callCapa,
-    callTracking6,
-    calltraced9,
-    messageImg4,
-    messages,
-    setting8,
-    tracedImg,
-    weighing7,
-    clipboardHeadPhone5,
-    effeciencySecImg,
-    compliantSecImg,
-    whyChooseUSImg,
-    callhandlingplay1,
-    weighingCall,
-    mediaclOffice4,
-    insurance5,
-    fooDelivery5,
-    realEstate,
-    cable,
-    utlities,
-    travel,
-    homeServices,
-    pharmacy,
-    heroBgImg,
-    infiniteImg,
-    scsColImg,
-    scsColImg2,
-    scsColImg3,
-    upArrow,
-    DownArrow,
-    footerLogo,
-    twitter,
-    instagram,
-    facebook,
-    linkedin,
-    footerBottomText
+    ApsenLogo, call, carbonCost, growthPic, personPic, callCapa, callTracking6, calltraced9, messageImg4, messages, setting8, tracedImg, weighing7, clipboardHeadPhone5, effeciencySecImg, compliantSecImg, whyChooseUSImg, callhandlingplay1, weighingCall, mediaclOffice4, insurance5, fooDelivery5, realEstate, cable, utlities, travel, homeServices, pharmacy, heroBgImg, infiniteImg, scsColImg, scsColImg2, scsColImg3, upArrow, DownArrow, footerLogo, twitter, instagram, facebook, linkedin, footerBottomText, contactUs, caution
 }

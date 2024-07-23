@@ -25,7 +25,9 @@ const Header = () => {
     }
 
     const removeNavBar = () => {
-        setActive(false)
+        let body = document.body;
+        setActive(true)
+        body.classList.remove("overflow-hidden")
     }
 
 
@@ -42,7 +44,7 @@ const Header = () => {
                     <span className={`w-full h-[3px] bg-black ${!active ? "hidden" : "block"}`}></span>
                     <span className={`w-full h-[3px] bg-black ${!active ? "-rotate-45 relative bottom-[10px]" : "rotate-0"}`}></span>
                 </div>
-                <div className={` flex ${active ? "max-lg:hidden" : "max-lg:flex-col max-lg:items-center max-lg:justify-center max-lg:fixed max-lg:w-full max-lg:h-full max-lg:top-0 max-lg:start-0 max-lg:bg-white"} items-center justify-center xl:gap-[30px] gap-[20px]`}>
+                <div className={` flex ${active ? "max-lg:hidden" : "max-lg:flex-col max-lg:items-center max-lg:justify-center max-lg:fixed max-lg:w-full max-lg:h-full max-lg:top-0 max-lg:start-0 max-lg:bg-white"} items-center justify-center xl:gap-[30px] gap-[20px] ease-in-out duration-300`}>
                     {navLink.map((obj, index) => <a href={obj.href} className=' font-normal font-lato text-base text-black-300 hover:textStroke ' onClick={removeNavBar}>{obj.tabText}</a>)}
                     <div className={`flex items-center justify-center gap-[14px] ${!active ? "max-lg:flex-col" : "flex-row"}`}>
                         <button className='BtnProp'>Log In</button>

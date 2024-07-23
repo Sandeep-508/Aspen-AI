@@ -10,6 +10,7 @@ import YourSolution from './YourSolution'
 import Savings from './Savings'
 import Accordion from './AccordionTailwind'
 import ScrollToTop from './ScrollToTop'
+import ContactUs from './ContactUs'
 
 
 const Main = () => {
@@ -26,6 +27,7 @@ const Main = () => {
       <YourSolution />
       <Accordion />
       <ScrollToTop />
+      <ContactUs />
     </>
   )
 }
