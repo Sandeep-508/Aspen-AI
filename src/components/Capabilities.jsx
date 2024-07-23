@@ -3,7 +3,7 @@ import { capabilities } from "./content"
 const Capabilities = () => {
     return (
         <section id="learn">
-            <div className="container max-md:max-w-[576px] lg:pt-[195px] md:pt-[150px] pt-[90px]">
+            <div className="container max-md:max-w-[576px] xl:pt-[195px] md:pt-[120px] pt-[65px]">
                 <p className="font-poppins text-center sm:text-4xl text-3xl font-semibold text-black-300 pb-4">Capabilities</p>
                 <div className="flex items-center justify-center">
                     <p className="pb-5 font-lato font-normal text-base text-black-300 text-center max-w-[523px] opacity-70">Aspen AI takes calls, makes calls, texts, and has meaningful conversations with all your prospective and current clients.</p>
@@ -20,7 +20,7 @@ const Capabilities = () => {
                     }
                 </div>
                 <div className=" flex items-center gap-6 justify-center lg:pt-[64px] md:pt-[44px] pt-8 flex-wrap">
-                    <button className='BtnProp bg-dark-green text-white w-[210px]'>Demo Texting Now</button>
+                    <button className='BtnProp bg-dark-green text-white w-[210px] hover:shadow-btnShadow hover:bg-white hover:text-dark-green'>Demo Texting Now</button>
                     <button className='BtnProp w-[182px]'>Demo Call Now</button>
                 </div>
             </div>

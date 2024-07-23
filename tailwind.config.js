@@ -39,6 +39,9 @@ module.exports = {
       },
       backgroundSize: {
         full: "100% 100%",
+      },
+      boxShadow: {
+        btnShadow: "rgba(2, 62, 72, 1) 0px 10px 10px -5px",
       }
     },
   },

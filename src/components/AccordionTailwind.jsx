@@ -87,8 +87,8 @@ function Accordion() {
     };
 
     return (
-        <div className='lg:py-[140px] md:py-[100px] py-[90px] px-3' id='faqs'>
-            <p className=" font-poppins lg:pb-[58px] md:pb-[40px] pb-6 font-semibold md:text-4xl text-3xl text-center">Frequently Asked <span className="bg-[#EFEFEF] px-2 rounded-[8px]">Questions</span></p>
+        <div className='lg:py-[140px] md:py-[100px] py-[90px] md:px-6 px-5' id='faqs'>
+            <p className=" font-poppins lg:pb-[58px] md:pb-[40px] pb-6 font-semibold md:text-4xl text-3xl text-center">Frequently asked <span className="bg-[#EFEFEF] px-2 rounded-[8px]">questions</span></p>
             {accordionItems.map((item, index) => (
                 <AccordionItem
                     key={index}

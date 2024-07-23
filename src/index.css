@@ -22,7 +22,7 @@
   }
 
   .container-xl {
-    @apply max-w-[1320px] mx-auto px-3
+    @apply max-w-[1368px] mx-auto px-6
   }
 
   .scrollTopProp {

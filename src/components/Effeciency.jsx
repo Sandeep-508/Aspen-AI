@@ -2,8 +2,8 @@ import { effeciencySecImg } from "../assets/images"
 
 const Effeciency = () => {
     return (
-        <section className="lg:py-[140px] pt-[90px]" id="aspen">
-            <div className="container">
+        <section className="lg:py-[140px] py-[90px]" id="aspen">
+            <div className="container max-sm:">
                 <div className="row lg:justify-between justify-center items-center">
                     <div className=" lg:w-6/12 px-3 flex items-center justify-center">
                         <img src={effeciencySecImg} alt="AI logo" className=" md:w-[507px] w-full md:h-[496px] sm:h-[400px] h-auto" />
@@ -13,7 +13,7 @@ const Effeciency = () => {
                         <p className="font-lato font-normal text-base text-black-300 opacity-70 py-4 sm:text-start text-center">Imagine a paralegal, intake agent, or staff member who is always accurate and always perfectly aligned with your objectives. That's what Aspen AI brings to your team.
                         </p>
                         <p className="font-lato font-normal text-base text-black-300 opacity-70 md:pb-[44px] pb-6 sm:text-start text-center">Our intuitive user interface and tight CRM integrations allow you to quickly craft and update messaging flows at the click of a button - giving you full control over your case screening processes and client communications.</p>
-                        <button className='BtnProp bg-dark-green text-white w-[149px]'>Get Started</button>
+                        <button className='BtnProp bg-dark-green text-white w-[149px] hover:shadow-btnShadow hover:bg-white hover:text-dark-green'>Get Started</button>
                     </div>
                 </div>
             </div>

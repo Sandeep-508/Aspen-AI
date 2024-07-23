@@ -1,8 +1,8 @@
 const YourSolution = () => {
     return (
-        <section className="px-3">
-            <div className="container-xl bg-skin-color-200 lg:py-[100px] md:py-[80px] py-[50px] rounded-[32px]">
-                <div className="container">
+        <section className="lg:px-6 px-5">
+            <div className="container-xl max-sm:px-3 bg-skin-color-200 lg:py-[100px] md:py-[80px] py-[50px] rounded-[32px]">
+                <div className="container px-0">
                     <div className="flex items-center justify-center">
                         <p className=" font-poppins font-semibold md:text-4xl text-3xl text-center max-w-[707px]">Make the Aspen AI “solution” Your Solution</p>
                     </div>

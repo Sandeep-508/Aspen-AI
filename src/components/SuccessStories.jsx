@@ -3,8 +3,8 @@ import { stories } from "./content"
 const SuccessStories = () => {
     return (
         <section className="lg:pt-[140px] md:pt-[100px] pt-[90px]">
-            <div className="container">
-                <p className="container text-center md:pb-6 pb-4 font-lato sm:text-4xl text-3xl text-black-300 font-semibold">Success stories</p>
+            <div className="container max-sm:px-5">
+                <p className="text-center md:pb-6 pb-4 font-poppins sm:text-4xl text-3xl text-black-300 font-semibold">Success stories</p>
                 <div className="row items-center justify-center">
                     {stories.map((obj, index) => <div className="lg:w-4/12 sm:w-6/12 w-full md:px-3 px-2 pt-[26px]">
                         <div className="md:p-6 p-4 border border-white-300 rounded-lg hover:bg-skin-color-200 hover:border-white ease-in-out duration-300">
