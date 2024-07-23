@@ -6,7 +6,7 @@ function AccordionItem({ title, content, isOpen, toggleAccordion }) {
     return (
         <div className={`border border-gray-300 ${isOpen ? "rounded-[24px] bg-custom-teal" : "md:rounded-[100px] rounded-[16px] bg-white"} mb-[18px] max-w-[938px] mx-auto`}>
             <div
-                className={`px-6 pt-4 ${isOpen ? "pb-[12px]" : "pb-4"}  cursor-pointer flex justify-between items-center text-gray`}
+                className={`px-6 pt-4 ${isOpen ? "pb-3" : "pb-4"}  cursor-pointer flex justify-between items-center text-gray`}
                 onClick={toggleAccordion}
             >
                 <p className='font-lato font-medium sm:text-xl text-base text-obsidian'>{title}</p>
@@ -18,7 +18,7 @@ function AccordionItem({ title, content, isOpen, toggleAccordion }) {
             </div>
             {isOpen && (
                 <div
-                    className="ps-6 pb-4 lg:pe-[133px] pe-4 font-lato font-normal sm:text-base text-sm opacity-70 text-obsidian"
+                    className="ps-6 pb-4 lg:pe-32 pe-4 font-lato font-normal sm:text-base text-sm opacity-70 text-obsidian"
                     dangerouslySetInnerHTML={{ __html: content }}
                 />
             )}
@@ -87,8 +87,8 @@ function Accordion() {
     };
 
     return (
-        <div className='lg:py-[140px] md:py-[100px] py-[90px] md:px-6 px-5' id='faqs'>
-            <p className=" font-poppins lg:pb-[58px] md:pb-[40px] pb-6 font-semibold md:text-4xl text-3xl text-center">Frequently asked <span className="bg-whisper px-2 rounded-[8px]">questions</span></p>
+        <div className='lg:py-36 md:py-24 py-16 md:px-6 px-5' id='faqs'>
+            <p className=" font-poppins lg:pb-14 md:pb-10 pb-6 font-semibold md:text-4xl text-3xl text-center">Frequently asked <span className="bg-whisper px-2 rounded-[8px]">questions</span></p>
             {accordionItems.map((item, index) => (
                 <AccordionItem
                     key={index}

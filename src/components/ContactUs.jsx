@@ -23,7 +23,7 @@ const ContactUs = () => {
         <div className="lg:pb-36 md:pb-24 pb-16 lg:px-6 px-5" id="contact">
             <div className="container-xl px-0 xl:bg-full bg-cover bg-center bg-no-repeat lg:py-24 md:py-20 py-12 rounded-[32px]" style={{ backgroundImage: `url(${contactUs})` }}>
                 <div className="max-w-[752px] mx-auto px-4">
-                    <p className="font-poppins sm:text-4xl text-3xl font-semibold text-white text-center md:pb-[50px] pb-[30px]"><span className="text-dark-green bg-white px-2 rounded-[8px] text-center">Contact us</span> today to <br className="md:block hidden" /> get started</p>
+                    <p className="font-poppins sm:text-4xl text-3xl font-semibold text-white text-center md:pb-12 pb-7"><span className="text-dark-green bg-white px-2 rounded-[8px] text-center">Contact us</span> today to <br className="md:block hidden" /> get started</p>
                     <form className="md:gap-6 gap-4 flex flex-col">
                         <div className="flex items-center gap-6 w-full max-md:flex-wrap">
                             <div className="flex items-start justify-center flex-col gap-2 w-full">
