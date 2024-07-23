@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-[1px] bg-[#FFFFFF4D] mt-[27px] mb-6"></div>
       <div className="container">
-        <p className="font-lato font-normal text-base text-white-200 opacity-70 text-center">©2024 Aspen AI. All Rights Reserved.</p>
+        <p className="font-lato font-normal text-base text-white-200 opacity-70 text-center pb-6">©2024 Aspen AI. All Rights Reserved.</p>
       </div>
     </section>
   )

@@ -20,11 +20,11 @@ const ContactUs = () => {
         }
     }
     return (
-        <section className="lg:pb-[140px] md:pb-[100px] pb-[90px] px-3">
+        <section className="lg:pb-[140px] md:pb-[100px] pb-[90px] px-3" id="contact">
             <div className="container-xl lg:bg-full bg-cover bg-center bg-no-repeat lg:py-[100px] md:py-[80px] py-[50px] rounded-[32px]" style={{ backgroundImage: `url(${contactUs})` }}>
                 <div className="max-w-[752px] mx-auto px-3">
-                    <p className="font-poppins sm:text-4xl text-3xl font-semibold text-white text-center pb-4"><span className="text-dark-green bg-white px-2 rounded-[8px] text-center">Contact us</span> today to <br className="md:block hidden" /> get started</p>
-                    <form className="gap-6 flex flex-col">
+                    <p className="font-poppins sm:text-4xl text-3xl font-semibold text-white text-center md:pb-[50px] pb-[30px]"><span className="text-dark-green bg-white px-2 rounded-[8px] text-center">Contact us</span> today to <br className="md:block hidden" /> get started</p>
+                    <form className="md:gap-6 gap-4 flex flex-col">
                         <div className="flex items-center gap-6 w-full max-md:flex-wrap">
                             <div className="flex items-start justify-center flex-col gap-2 w-full">
                                 <p className="font-lato font-normal text-base text-white-200 opacity-60">Full name*</p>

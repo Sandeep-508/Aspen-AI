@@ -3,7 +3,7 @@ import { gameChanger } from "./content";
 
 const GameChanger = () => {
     return (
-        <section className="px-3">
+        <section className="px-3" id="pricing">
             <div className="container-xl bg-skin-color-200 lg:py-[100px] md:py-[80px] py-[40px] rounded-[32px]">
                 <div className="container">
                     <p className=" font-poppins font-semibold md:text-4xl text-3xl text-center"><span className="bg-[#EFEFEF] px-2 rounded-[8px]">Aspen AI:</span> Game Changers</p>
