@@ -4,12 +4,12 @@ import UpArrow from '../assets/images/upArrow.webp';
 
 function AccordionItem({ title, content, isOpen, toggleAccordion }) {
     return (
-        <div className={`border border-gray-300 ${isOpen ? "rounded-[24px] bg-[#023E4808]" : "md:rounded-[100px] rounded-[16px] bg-white"} mb-[18px] max-w-[938px] mx-auto`}>
+        <div className={`border border-gray-300 ${isOpen ? "rounded-[24px] bg-custom-teal" : "md:rounded-[100px] rounded-[16px] bg-white"} mb-[18px] max-w-[938px] mx-auto`}>
             <div
                 className={`px-6 pt-4 ${isOpen ? "pb-[12px]" : "pb-4"}  cursor-pointer flex justify-between items-center text-gray`}
                 onClick={toggleAccordion}
             >
-                <p className='font-lato font-medium sm:text-xl text-base text-black-300'>{title}</p>
+                <p className='font-lato font-medium sm:text-xl text-base text-obsidian'>{title}</p>
                 {isOpen ? (
                     <img src={UpArrow} alt="Up Arrow" className="w-4 h-[9px]" />
                 ) : (
@@ -18,7 +18,7 @@ function AccordionItem({ title, content, isOpen, toggleAccordion }) {
             </div>
             {isOpen && (
                 <div
-                    className="ps-6 pb-4 lg:pe-[133px] pe-4 font-lato font-normal sm:text-base text-sm opacity-70 text-black-300"
+                    className="ps-6 pb-4 lg:pe-[133px] pe-4 font-lato font-normal sm:text-base text-sm opacity-70 text-obsidian"
                     dangerouslySetInnerHTML={{ __html: content }}
                 />
             )}
@@ -88,7 +88,7 @@ function Accordion() {
 
     return (
         <div className='lg:py-[140px] md:py-[100px] py-[90px] md:px-6 px-5' id='faqs'>
-            <p className=" font-poppins lg:pb-[58px] md:pb-[40px] pb-6 font-semibold md:text-4xl text-3xl text-center">Frequently asked <span className="bg-[#EFEFEF] px-2 rounded-[8px]">questions</span></p>
+            <p className=" font-poppins lg:pb-[58px] md:pb-[40px] pb-6 font-semibold md:text-4xl text-3xl text-center">Frequently asked <span className="bg-whisper px-2 rounded-[8px]">questions</span></p>
             {accordionItems.map((item, index) => (
                 <AccordionItem
                     key={index}

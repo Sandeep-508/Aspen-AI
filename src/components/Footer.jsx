@@ -2,7 +2,7 @@ import { facebook, footerBottomText, footerLogo, instagram, linkedin, twitter } 
 
 const Footer = () => {
   return (
-    <section className="bg-black-300 pt-[60px]">
+    <div className="bg-obsidian pt-14">
       <div className="container max-sm:px-5">
         <div className="row justify-between">
           <div className="md:w-4/12 px-3 sm:w-8/12 w-full">
@@ -11,7 +11,7 @@ const Footer = () => {
                 <img src={footerLogo} alt="footer logo" className=" w-full h-full" />
               </a>
             </div>
-            <p className="font-lato font-normal text-base text-white md:max-w-[342px] pt-[10px] md:pb-8 pb-4 opacity-70">Aspen AI is a leading AI-powered platform designed to transform way businesses handle lead screening & customer interactions. </p>
+            <p className="font-lato font-normal text-base text-white md:max-w-[342px] pt-2.5 md:pb-8 pb-4 opacity-70">Aspen AI is a leading AI-powered platform designed to transform way businesses handle lead screening & customer interactions. </p>
             <div className="flex items-center justify-start gap-[11px]">
               <div className="md:w-[40px] w-[30px] md:h-[40px] h-[30px] border border-white rounded-full flex items-center justify-center group ease-in-out duration-300 hover:bg-dark-green hover:border-dark-green">
                 <a href="https://x.com/login=" target="_blank" className=" group-hover:scale-[1.2] ease-in-out duration-300">
@@ -34,7 +34,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <p className="font-lato font-medium sm:text-lg text-base text-white-200 opacity-70 md:pt-[41px] pt-4">AI voices powered</p>
+            <p className="font-lato font-medium sm:text-lg text-base text-off-white opacity-70 md:pt-[41px] pt-4">AI voices powered</p>
             <div className="md:w-[248px] md:h-[40px] w-[180px] h-[30px] pt-[9px]">
               <img src={footerBottomText} alt="footer bottom text" className=" w-full h-full" />
             </div>
@@ -60,11 +60,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-[1px] bg-[#FFFFFF4D] mt-[27px] mb-6"></div>
+      <div className="w-full h-[1px] bg-[#FFFFFF4D] mt-7 mb-6"></div>
       <div className="container">
-        <p className="font-lato font-normal text-base text-white-200 opacity-70 text-center pb-6">©2024 Aspen AI. All Rights Reserved.</p>
+        <p className="font-lato font-normal text-base text-off-white opacity-70 text-center pb-6">©2024 Aspen AI. All Rights Reserved.</p>
       </div>
-    </section>
+    </div>
   )
 }
 
