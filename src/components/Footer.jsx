@@ -12,22 +12,22 @@ const Footer = () => {
             <p className="font-lato font-normal text-base text-white md:max-w-[342px] pt-[10px] md:pb-8 pb-4 opacity-70">Aspen AI is a leading AI-powered platform designed to transform way businesses handle lead screening & customer interactions. </p>
             <div className="flex items-center justify-start gap-[11px]">
               <div className="w-[40px] h-[40px] border border-white rounded-full flex items-center justify-center">
-                <a href="#">
+                <a href="https://x.com/login=" target="_blank">
                   <img src={twitter} alt="social media" className=" w-[18px] h-[18px]" />
                 </a>
               </div>
               <div className="w-[40px] h-[40px] border border-white rounded-full flex items-center justify-center">
-                <a href="#">
+                <a href="https://www.facebook.com/login.php/" target="_blank">
                   <img src={facebook} alt="social media" className=" w-[11px] h-[23px]" />
                 </a>
               </div>
               <div className="w-[40px] h-[40px] border border-white rounded-full flex items-center justify-center">
-                <a href="#">
+                <a href="https://www.instagram.com/" target="_blank">
                   <img src={instagram} alt="social media" className=" w-[21px] h-[20px]" />
                 </a>
               </div>
               <div className="w-[40px] h-[40px] border border-white rounded-full flex items-center justify-center">
-                <a href="#">
+                <a href="https://www.linkedin.com/feed/" target="_blank">
                   <img src={linkedin} alt="social media" className=" w-[18px] h-[18px]" />
                 </a>
               </div>
