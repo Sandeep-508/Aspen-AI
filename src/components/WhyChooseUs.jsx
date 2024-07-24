@@ -13,7 +13,7 @@ const WhyChooseUs = () => {
                         <button className='BtnProp bg-dark-green text-white w-[149px] hover:shadow-btnShadow hover:bg-white hover:text-dark-green'>Get Started</button>
                     </div>
                     <div className="lg:w-6/12 px-3 flex items-center justify-center">
-                        <img src={whyChooseUSImg} alt="why choose section image" className="md:w-[507px] w-full md:h-[496px] sm:h-[400px] h-auto" />
+                        <img src={whyChooseUSImg} alt="why choose section image" className="lg:w-[507px] w-full lg:h-[496px] sm:h-[400px] h-[300px]" />
                     </div>
                 </div>
             </div>

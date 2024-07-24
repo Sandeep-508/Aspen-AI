@@ -30,7 +30,7 @@ const ScrollToTop = () => {
 
     return (
         <div
-            className={`fixed right-6 bottom-6 z-[11] ${scrollTop ? 'block' : 'hidden'} scrollTopProp`} onClick={handleScrollTop}>
+            className={`fixed md:right-6 md:bottom-6 right-3 bottom-3 z-[11] ${scrollTop ? 'block' : 'hidden'} scrollTopProp`} onClick={handleScrollTop}>
             <div className="rotate-180 border flex items-center justify-center border-white bg-dark-green md:w-[50px] md:h-[50px] w-[30px] h-[30px] rounded-full cursor-pointer group hover:bg-white hover:border-dark-green hover:border hover:shadow-scrollBoxShadow transition-all">
                 <ScrollToArrow className="max-md:w-[20px] max-md:h-[20px]" />
             </div>

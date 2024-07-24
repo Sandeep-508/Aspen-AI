@@ -6,7 +6,7 @@ const Effeciency = () => {
             <div className="container max-sm:px-5">
                 <div className="row lg:justify-between justify-center items-center">
                     <div className=" lg:w-6/12 px-3 flex items-center justify-center">
-                        <img src={effeciencySecImg} alt="AI logo" className=" md:w-[507px] w-full md:h-[496px] sm:h-[400px] h-auto" />
+                        <img src={effeciencySecImg} alt="AI logo" className=" lg:w-[507px] w-full lg:h-[496px] sm:h-[400px] h-[300px]" />
                     </div>
                     <div className="lg:w-5/12 sm:w-10/12 px-3 flex flex-col sm:items-start sm:justify-start justify-center items-center lg:pt-0 pt-6">
                         <p className=" font-poppins font-semibold md:text-4xl text-3xl sm:text-start text-center"><span className="bg-whisper px-2 rounded-[8px]">Efficiency</span> and scalability like never before</p>
